@@ -1,3 +1,11 @@
 <!-- test -->
 
+<ul class="app-nav">
+  <!-- 动态 -->
+  <li><a [routerLink]="['/home']" routerLinkActive="active">home</a></li>
+  <!-- 静态 -->
+  <li><a routerLink='/home' routerLinkActive="active">home2</a></li>
+  <li><a [routerLink]="['/news']" routerLinkActive="active">news</a></li>
+  <li><a [routerLink]="['/product']" routerLinkActive="active">product</a></li>
+</ul>
 <router-outlet></router-outlet>
